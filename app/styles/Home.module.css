@@ -1,0 +1,26 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.card{
+  width:450px;
+  background-color: white ;
+  height:500px;
+opacity: 0.7;
+}
+@media (max-width: 600px) {
+.card{
+  width:250px;
+  height:450px;
+box-shadow:0 4px 8px 1px gray;
+background-color: white;
+opacity:0.7;
+}
+}
